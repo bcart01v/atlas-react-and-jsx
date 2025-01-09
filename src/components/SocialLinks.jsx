@@ -11,7 +11,7 @@ const SocialLinks = () => {
                 <img src="src/assets/linkedin.svg" alt="Bens LinkedIn" />
             </a>
             <a
-                href="https://github.com/bcart01v"
+                href="https://github.com/bcart01v/atlas-react-and-jsx"
                 target="_blank"
                 rel="nopener noreferrer"
             >
