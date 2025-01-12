@@ -3,6 +3,8 @@ import Greeting from "./components/Greeting";
 import SocialLinks from "./components/SocialLinks";
 import Header from "./components/Header";
 import Section from "./components/Section";
+import HelpfulResource from "./components/HelpfulResource";
+
 
 function App() {
   return ( 
@@ -25,6 +27,21 @@ function App() {
         <li>Scalability for Complex applications</li>
       </ul>
      </Section>
+
+      <Section title="Helpful Resources">
+        <HelpfulResource
+        label="Getting Started with React"
+        link="https://react.dev/learn"
+        />
+        <HelpfulResource
+        label="Learn React from Bob Ziroll"
+        link="https://www.freecodecamp.org/news/learn-react-2024/"
+        />
+        <HelpfulResource
+        label="React Course on Scrimba"
+        link="https://scrimba.com/learn/learnreact"
+        />
+      </Section>
     </div>
   );
 }
